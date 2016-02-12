@@ -7,6 +7,12 @@
     "url": "https://github.com/DrMongo/seeder.git"
   },
   "license": "MIT",
+  "keywords": [
+    "mongoDb",
+    "data",
+    "seed",
+    "meteor"
+  ],
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
   },
