@@ -71,7 +71,7 @@ describe('Data as function', () => {
   Seeder.seed('Data as function', collection, {
     min: 3,
     max: 10,
-    data: index => {
+    data(index) {
       return {title: 'Article ' + index};
     }
   });
