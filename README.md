@@ -4,7 +4,12 @@ Seed data with ease!
 
 
 
-# Usage
+## Use in Node.js
+```
+npm install dr-seeder
+```
+
+## Usage
 ````js
 
 Seeder.seed('Seed articles from array', ArticlesCollection, {
@@ -49,7 +54,7 @@ Seeder.seed('Advanced seed articles', ArticlesCollection, {
 
 ````
 
-# Configuration
+## Configuration
 
 ````js
 Seeder.config({ // default values
@@ -74,7 +79,7 @@ Seeder.config({ // default values
 })
 ````
 
-# API
+## API
 ### Seeder.config(options)
 Override default settings
 
