@@ -11,6 +11,7 @@ npm install dr-seeder
 
 ## Usage
 ````js
+import Seeder from 'dr-seeder';
 
 Seeder.seed('Seed articles from array', ArticlesCollection, {
   data: [
@@ -57,6 +58,8 @@ Seeder.seed('Advanced seed articles', ArticlesCollection, {
 ## Configuration
 
 ````js
+import Seeder from 'dr-seeder';
+
 Seeder.config({ // default values
   condition() { // should data be seeded?
     // this (context) is an Object{name, collection}
